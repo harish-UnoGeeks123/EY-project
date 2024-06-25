@@ -31,7 +31,7 @@ fastapi_project/
 
 1. **Clone the repository**:
     ```sh
-    git clone 
+    git clone https://github.com/harish-UnoGeeks123/EY-project.git
     cd EY project           # This is the root folder for the project
     ```
 
