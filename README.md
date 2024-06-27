@@ -10,13 +10,14 @@ my_fastapi_app/
 │   ├── main.py
 │   ├── models/
 │   │   ├── __init__.py
-│   │   ├── user.py
+│   │   ├── request.py
+│   │   ├── response.py
 │   ├── views/
 │   │   ├── __init__.py
-│   │   ├── user.py
+│   │   ├── addition.py       # return list addition ouput
 │   ├── controllers/
 │   │   ├── __init__.py
-│   │   ├── user.py
+│   │   ├── controllers.py     # Contains endpoints
 │   ├── core/
 │   │   ├── __init__.py
 │   │   ├── config.py
@@ -28,34 +29,18 @@ my_fastapi_app/
 │   │   ├── user.py
 │   ├── utils/
 │   │   ├── __init__.py
-│   │   ├── security.py
+│   │   ├── error_handler.py
+│   │   ├── logger.py
 │   └── tests/
 │       ├── __init__.py
-│       ├── test_user.py
+│       ├── test_app.py          
 ├── .env
 ├── requirements.txt
 └── README.md
 
-
-fastapi_project/
-├── app/
-│ ├── init.py
-│ ├── main.py
-│ ├── controllers.py     # Contains endpoints
-│ ├── models.py          # Contains Request and Response classes
-│ ├── addition.py        # Since there is no html rendering involved here, views.py is not developed.
-│ ├── error_handler.py   # For error handling
-│ ├── logger.py          # for logging
-│ ├── tests/             
-│ │ ├── init.py
-│ │ ├── test_addition.py
-├── requirements.txt
-└── README.md
-
-
 ## Requirements(latest version)
 
-- Python 3.12.2+ # The code works on latest python version
+- Python 3.12.2 # The code works on latest python version
 - fastapi
 - uvicorn
 - pytest
