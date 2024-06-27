@@ -4,6 +4,39 @@ This project demonstrates a FastAPI application that performs addition on lists 
 
 ## Project Structure
 
+my_fastapi_app/
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   ├── views/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   ├── controllers/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── config.py
+│   ├── db/
+│   │   ├── __init__.py
+│   │   ├── database.py
+│   ├── schemas/
+│   │   ├── __init__.py
+│   │   ├── user.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── security.py
+│   └── tests/
+│       ├── __init__.py
+│       ├── test_user.py
+├── .env
+├── requirements.txt
+└── README.md
+
+
 fastapi_project/
 ├── app/
 │ ├── init.py
