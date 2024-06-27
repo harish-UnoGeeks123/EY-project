@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.controllers import router as addition_router
-from app.error_handler import http_error_handler, general_error_handler
+from app.controllers.controllers import router as addition_router
+from app.utils.error_handler import http_error_handler, general_error_handler
 from fastapi import HTTPException
 
 app = FastAPI()

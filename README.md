@@ -22,7 +22,7 @@ fastapi_project/
 
 ## Requirements(latest version)
 
-- Python 3.8+
+- Python 3.12.2+ # The code works on latest python version
 - fastapi
 - uvicorn
 - pytest
